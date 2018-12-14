@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System;
 using DG.Tweening;
 
-public class ToastScript : MonoBehaviour
+public class Toast : MonoBehaviour
 {
     // Use this for initialization
     void Start()

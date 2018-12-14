@@ -9,7 +9,7 @@ public class MainScript : MonoBehaviour {
 	void Start () {
         this.transform.Find("Button_start").GetComponent<Button>().onClick.AddListener(() =>
         {
-            ToastScript.show("暂未开放");
+            Toast.show("暂未开放");
         });
 	}
 	
